@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>每日读经 · 祷告 · 灵修</title>
-  <meta name="description" content="简洁优雅的圣经灵修App，陪你每日读经、祷告打卡、灵修测，安静与神相遇。">
+  <title>Daily Bible · Prayer · Devotion</title>
+  <meta name="description" content="A simple and elegant Bible devotion app that accompanies you with daily Scripture reading, prayer check-ins, and spiritual growth quizzes to quietly meet with God.">
   
-  <meta property="og:title" content="简洁优雅的每日灵修App">
-  <meta property="og:description" content="读经 · 祷告 · 灵修测 · 找回内心的平安">
-  <meta property="og:image" content="https://yourdomain.com/og.jpg">
+  <meta property="og:title" content="A Simple & Elegant Daily Devotion App">
+  <meta property="og:description" content="Bible Reading · Prayer · Devotion Quiz · Rediscover Inner Peace">
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -16,8 +15,8 @@
   <style>
     :root {
       --bg: #faf9f7;
-      --primary: #5d8aa8;    /* 柔和灰蓝 */
-      --accent: #8aa399;     /* 柔和灰绿 */
+      --primary: #5d8aa8;
+      --accent: #8aa399;
       --text: #2d2d2d;
       --light: #f5f5f5;
       --border: #e8e8e3;
@@ -31,19 +30,13 @@
     }
     header {
       min-height: 100vh;
-      background: url('https://yourdomain.com/hero.jpg') center/cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), #8b9dc3;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
       position: relative;
       color: white;
-    }
-    header::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: rgba(0,0,0,0.38);
     }
     .content {
       position: relative;
@@ -96,17 +89,6 @@
       color: var(--primary);
       margin-bottom: 20px;
     }
-    .shots {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-      gap: 30px;
-      margin-top: 50px;
-    }
-    .shots img {
-      width: 100%;
-      border-radius: 16px;
-      box-shadow: 0 12px 35px rgba(0,0,0,0.1);
-    }
     .cta {
       text-align: center;
       padding: 120px 20px;
@@ -135,68 +117,62 @@
 
   <header>
     <div class="content">
-      <h1>每日与神相遇</h1>
-      <p class="subtitle">安静读经 · 恒切祷告 · 灵命成长</p>
-      <p style="font-size:1.4rem;margin:30px 0;">简洁优雅的设计，陪伴你每一天的灵修生活</p>
+      <h1>Meet God Every Day</h1>
+      <p class="subtitle">Quiet Bible Reading · Persistent Prayer · Spiritual Growth</p>
+      <p style="font-size:1.4rem;margin:30px 0;">Simple and elegant design to accompany your daily devotion life</p>
       
       <a href="https://apps.apple.com/app/id6755113609" class="btn" target="_blank">
-        <img src="https://linkmaker.itunes.apple.com/assets/shared/badges/zh-cn/appstore-lrg.svg" alt="App Store 下载">
+        <img src="https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg" alt="Download on the App Store">
       </a>
     </div>
   </header>
 
   <section>
-    <h2>专注灵修的核心</h2>
+    <h2>Focused on the Heart of Devotion</h2>
     <div class="features">
       <div class="card">
         <i class="fas fa-book-open"></i>
-        <h3>每日读经</h3>
-        <p>清晰排版，支持多种译本，随时随地默想神的话</p>
+        <h3>Daily Bible Reading</h3>
+        <p>Clean layout with multiple translations, meditate on God’s Word anytime, anywhere</p>
       </div>
       <div class="card">
         <i class="fas fa-praying-hands"></i>
-        <h3>祷告记录</h3>
-        <p>记录每一次祷告事项，培养恒切祷告的习惯</p>
+        <h3>Prayer Journal</h3>
+        <p>Record every prayer request and cultivate a habit of persistent prayer</p>
       </div>
       <div class="card">
         <i class="fas fa-question-circle"></i>
-        <h3>灵修测验</h3>
-        <p>圣经知识测验 + 深度灵修问答，帮助你内化真理</p>
+        <h3>Devotion Quiz</h3>
+        <p>Bible knowledge quizzes + in-depth reflection questions to help you internalize truth</p>
       </div>
       <div class="card">
         <i class="fas fa-bookmark"></i>
-        <h3>收藏与笔记</h3>
-        <p>随时收藏经文、添加灵感笔记，建立个人灵修档案</p>
+        <h3>Bookmarks & Notes</h3>
+        <p>Save verses anytime, add insights and notes, build your personal devotion archive</p>
       </div>
-    </div>
-  </section>
-
-  <section style="background:white;">
-    <h2>简洁 · 专注 · 优雅</h2>
-    <div class="shots">
-      <img src="https://yourdomain.com/s1.jpg" alt="首页">
-      <img src="https://yourdomain.com/s2.jpg" alt="读经">
-      <img src="https://yourdomain.com/s3.jpg" alt="测验">
-      <img src="https://yourdomain.com/s4.jpg" alt="祷告">
     </div>
   </section>
 
   <section class="cta">
-    <h2>从今天开始<br>坚持每日灵修</h2>
-    <p style="font-size:1.6rem;margin:35px 0;color:#555;">免费下载，立即体验</p>
+    <h2>Start Today<br>Stay Consistent in Daily Devotion</h2>
+    <p style="font-size:1.6rem;margin:35px 0;color:#555;">Free download · Start your journey now</p>
     <a href="https://apps.apple.com/app/id6755113609" target="_blank">
-      <img src="https://linkmaker.itunes.apple.com/assets/shared/badges/zh-cn/appstore-lrg.svg" alt="下载" style="height:68px;">
+      <img src="https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg" alt="Download on the App Store" style="height:68px;">
     </a>
   </section>
 
   <footer>
-    <div class="cross">Cross</div>
+    <div class="cross">✝</div>
     <p style="font-size:1.1rem;max-width:600px;margin:20px auto;line-height:1.8;">
-      “你要专心仰赖耶和华，不可倚靠自己的聪明，<br>在你一切所行的事上游上都要认定他，他必指引你的路。”<br>——箴言 3:5-6
+      “Trust in the LORD with all thine heart;<br>
+      and lean not unto thine own understanding.<br>
+      In all thy ways acknowledge him,<br>
+      and he shall direct thy paths.”<br>
+      — Proverbs 3:5-6 (KJV)
     </p>
     <p style="margin-top:40px;font-size:0.9rem;opacity:0.8;">
       © 2025 All Rights Reserved<br>
-      <a href="mailto:hello@yourdomain.com" style="color:#e2e8f0;text-decoration:none;">联系我们</a>
+      <a href="mailto:PulseAgeService@outlook.com" style="color:#e2e8f0;text-decoration:none;">Contact us</a>
     </p>
   </footer>
 
